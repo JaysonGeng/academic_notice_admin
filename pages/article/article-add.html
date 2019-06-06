@@ -40,21 +40,26 @@
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">标签</label>
+            <label class="layui-form-label">出生日期</label>
             <div class="layui-input-block">
-                <input type="text" name="label" placeholder="请输入文章标签" autocomplete="off" class="layui-input" lay-verify="required">
+                <input type="text" name="startTime" placeholder="请选择日期" autocomplete="off" class="layui-input" id="startTime" lay-verify="startTimeVerify">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">地点</label>
+            <div class="layui-input-block">
+                <select name="classify">
+                    <option value="0">中心校区明德楼第一讲学厅</option>
+                    <option value="1">中心校区明德楼第二讲学厅</option>
+                    <option value="2">中心校区明德楼第三讲学厅</option>
+                    <option value="3">中心校区明德楼第四讲学厅</option>
+                </select>
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">状态</label>
             <div class="layui-input-block">
                 <input type="checkbox" name="status" lay-skin="switch" lay-text="启用|停用" checked value="0">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">置顶</label>
-            <div class="layui-input-block">
-                <input type="checkbox" name="isTop" lay-skin="switch" lay-text="是|否" value="0">
             </div>
         </div>
         <div class="layui-form-item layui-form-text">
@@ -79,12 +84,15 @@
     }).extend({
         okLayer: "okLayer",
         okUtils: "okUtils"
-    }).use(["element", "form", "layedit", "okLayer", "okUtils"], function () {
+    }).use(["element",  "form", "laydate", "okLayer", "okUtils", "layedit"], function () {
         var form = layui.form;
         var layedit = layui.layedit;
+
+        var laydate = layui.laydate;
         var okLayer = layui.okLayer;
         var okUtils = layui.okUtils;
 
+        laydate.render({elem: "#startTime", type: "datetime"});
         var index = layedit.build("content", {});
 		form.verify({
 			// layedit内容校验

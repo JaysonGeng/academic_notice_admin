@@ -4,18 +4,31 @@
   "count": 12,
   "data": [
     {
-      "id": "001",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
-      "readSize": 288,
-      "publisher": "admin",
-      "isTop": true,
-      "status": true
+      "name": "软件学院黑客马拉松",
+      "startTime": 1551024000000,
+      "locations": [
+        {
+          "id": 1,
+          "name": "软件园5区107d",
+          "campus": "软件园校区"
+        }
+      ],
+      "id": 3,
+      "appoint_count": 0,
+      "a_locations": "软件园5区107d  ",
+      "introduction": "emm",
+      "departs": [
+        {
+          "id": 0,
+          "name": "山东大学"
+        }
+      ],
+      "a_departs": "山东大学  "
     },
     {
       "id": "002",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,
@@ -23,8 +36,8 @@
     },
     {
       "id": "003",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
+      "title": "大数据与科学",
+      "url": "中心校区讲学厅100",
       "readSize": 288,
       "publisher": "admin",
       "isTop": true,
@@ -32,8 +45,8 @@
     },
     {
       "id": "004",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,
@@ -41,8 +54,8 @@
     },
     {
       "id": "005",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
+      "title": "大数据与科学",
+      "url": "中心校区讲学厅100",
       "readSize": 288,
       "publisher": "admin",
       "isTop": true,
@@ -50,8 +63,8 @@
     },
     {
       "id": "006",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,
@@ -59,8 +72,8 @@
     },
     {
       "id": "007",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
+      "title": "大数据与科学",
+      "url": "中心校区讲学厅100",
       "readSize": 288,
       "publisher": "admin",
       "isTop": true,
@@ -68,8 +81,8 @@
     },
     {
       "id": "008",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,
@@ -77,8 +90,8 @@
     },
     {
       "id": "009",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
+      "title": "大数据与科学",
+      "url": "中心校区讲学厅100",
       "readSize": 288,
       "publisher": "admin",
       "isTop": true,
@@ -86,8 +99,8 @@
     },
     {
       "id": "010",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,
@@ -95,8 +108,8 @@
     },
     {
       "id": "011",
-      "title": "LV降价了！宇宙大牌最值得买的包可以下手啦！",
-      "url": "http://ok-admin.xlbweb.cn/p/100",
+      "title": "大数据与科学",
+      "url": "中心校区讲学厅100",
       "readSize": 288,
       "publisher": "admin",
       "isTop": true,
@@ -104,8 +117,8 @@
     },
     {
       "id": "012",
-      "title": "这颗彗星时速13.5万公里，有人想抓点样本带回地球",
-      "url": "http://ok-admin.xlbweb.cn/p/101",
+      "title": "人工智能与生活",
+      "url": "中心校区讲学厅101",
       "readSize": 188,
       "publisher": "admin",
       "isTop": false,

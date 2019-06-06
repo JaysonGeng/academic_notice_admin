@@ -1,4 +1,4 @@
-# ok-admin v1.0
+# sduCMS
 一个很赞的，扁平化风格的，响应式布局的后台管理模版，旨为后端程序员减压！
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0525/161436_23cd5fd8_1152471.png "屏幕截图.png")
 

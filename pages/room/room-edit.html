@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>添加权限</title>
+    <title>添加会议室</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../../css/okadmin.css">
 </head>
@@ -13,8 +13,8 @@
         <span class="layui-breadcrumb">
             <a><cite>首页</cite></a>
             <a><cite>会员管理</cite></a>
-            <a><cite>权限列表</cite></a>
-            <a><cite>编辑权限</cite></a>
+            <a><cite>会议室列表</cite></a>
+            <a><cite>编辑会议室</cite></a>
         </span>
         <a class="layui-btn layui-btn-sm" href="javascript:location.replace(location.href);" title="刷新">
             <i class="layui-icon layui-icon-refresh"></i>
@@ -23,15 +23,15 @@
     <!--form表单-->
     <form class="layui-form ok-form">
         <div class="layui-form-item">
-            <label class="layui-form-label">权限名称</label>
+            <label class="layui-form-label">会议室名称</label>
             <div class="layui-input-block">
-                <input type="text" name="username" placeholder="请输入权限名称" autocomplete="off" class="layui-input" lay-verify="required">
+                <input type="text" name="username" placeholder="请输入会议室名称" autocomplete="off" class="layui-input" lay-verify="required">
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">权限标识</label>
+            <label class="layui-form-label">会议室标识</label>
             <div class="layui-input-block">
-                <input type="text" name="reallyName" placeholder="请输入权限标识" autocomplete="off" class="layui-input" lay-verify="required">
+                <input type="text" name="reallyName" placeholder="请输入会议室标识" autocomplete="off" class="layui-input" lay-verify="required">
             </div>
         </div>
         <div class="layui-form-item">
@@ -61,7 +61,7 @@
 <!--js逻辑-->
 <script src="../../lib/layui/layui.js"></script>
 <script>
-    // TODO 权限模块需要大改！！！！！！
+    // TODO 会议室模块需要大改！！！！！！
     layui.use(["element", "form", "laydate"], function () {
         var form = layui.form;
         var $ = layui.jquery;
